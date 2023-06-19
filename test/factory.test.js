@@ -25,8 +25,8 @@ describe("Proxy Test", () => {
       0
     );
 
-    expect(
-      await factoryContract.minimalProxy(initializeSelector, accountContract, 0)
+    await expect(
+      factoryContract.minimalProxy(initializeSelector, accountContract, 0)
     ).to.emit(factoryContract, "ProxyCreated");
   });
 });

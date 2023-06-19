@@ -17,6 +17,7 @@ contract factory {
         }(data);
 
         Address.verifyCallResult(success, returnData, "Failed");
+        emit ProxyCreated();
         return createdProxy;
     }
 }
