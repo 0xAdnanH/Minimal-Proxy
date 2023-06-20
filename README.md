@@ -8,11 +8,11 @@ One crucial security concern to be mindful of is the initialization of proxies. 
 Regarding the primary account intended for cloning, I have disabled its initialization since it will solely serve as a reference and should not be controlled by any entity.
 
 ## Compiling 
-npx hardhat compile
+```npx hardhat compile```
 ## Testing
-npx hardhat test
+```npx hardhat test```
 ## Contract Size
 The project contain the hardhat contract sizer plugin, to check contract size:
 
-npx hardhat size-contracts
+```npx hardhat size-contracts```
 
